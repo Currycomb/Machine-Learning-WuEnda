@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a2400a-051f-4d94-a04d-edfb4dd4fff3" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multi-class Classiﬁcation and Neural Networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multi-class Classiﬁcation and Neural Networks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="false" />
@@ -150,7 +148,7 @@
       <workItem from="1589424831765" duration="1803000" />
       <workItem from="1589461053795" duration="5732000" />
       <workItem from="1589690239851" duration="65000" />
-      <workItem from="1589690313374" duration="15267000" />
+      <workItem from="1589690313374" duration="16563000" />
     </task>
     <servers />
   </component>
@@ -162,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589691694378" />
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1589719196865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589719196865" />
     <state width="1877" height="615" key="GridCell.Tab.0.bottom" timestamp="1589715772143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
