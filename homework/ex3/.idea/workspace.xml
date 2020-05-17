@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65a2400a-051f-4d94-a04d-edfb4dd4fff3" name="默认更改列表" comment="" />
+    <list default="true" id="65a2400a-051f-4d94-a04d-edfb4dd4fff3" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multi-class Classiﬁcation and Neural Networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multi-class Classiﬁcation and Neural Networks.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_CONFLICTS" value="false" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
@@ -14,8 +18,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="INCOMING_CHECK_STRATEGY" value="Never" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="JupyterTrust" id="e1c8aeb3-fe40-43ad-bd51-f60df8d042e9" />
   <component name="ProjectId" id="1bo4HeYJqMglRD3QEPAgLL8EcIg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
   </component>
   <component name="RunManager" selected="Python.Multi-class Classiﬁcation and Neural Networks">
     <configuration name="Baseline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -41,6 +52,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Baseline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ex3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,13 +129,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Multi-class Classiﬁcation and Neural Networks" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.Baseline" />
+        <item itemvalue="Python.Example" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\钱先明\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,7 +148,9 @@
       <workItem from="1589285027228" duration="4113000" />
       <workItem from="1589376645693" duration="1909000" />
       <workItem from="1589424831765" duration="1803000" />
-      <workItem from="1589461053795" duration="2133000" />
+      <workItem from="1589461053795" duration="5732000" />
+      <workItem from="1589690239851" duration="65000" />
+      <workItem from="1589690313374" duration="15267000" />
     </task>
     <servers />
   </component>
@@ -122,22 +158,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1589461274305">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1589691694378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589461274305" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1589461274305">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589691694378" />
+    <state width="1877" height="615" key="GridCell.Tab.0.bottom" timestamp="1589715772143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589461274305" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1589461274305">
+    <state width="1877" height="615" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589715772143" />
+    <state width="1877" height="615" key="GridCell.Tab.0.center" timestamp="1589715772143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589461274305" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1589461274305">
+    <state width="1877" height="615" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589715772143" />
+    <state width="1877" height="615" key="GridCell.Tab.0.left" timestamp="1589715772143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589461274305" />
+    <state width="1877" height="615" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589715772143" />
+    <state width="1877" height="615" key="GridCell.Tab.0.right" timestamp="1589715772143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="615" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589715772143" />
     <state width="1877" height="379" key="GridCell.Tab.1.bottom" timestamp="1589425565312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,10 +194,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="379" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589425565312" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1589691671716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589691671716" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ex3$Multi_class_Classication_and_Neural_Networks.coverage" NAME="Multi-class Classiﬁcation and Neural Networks Coverage Results" MODIFIED="1589461274289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ex3$Baseline.coverage" NAME="Baseline Coverage Results" MODIFIED="1589377543134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/ex3$Example.coverage" NAME="Example Coverage Results" MODIFIED="1589706029905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex3$Multi_class_Classication_and_Neural_Networks.coverage" NAME="Multi-class Classiﬁcation and Neural Networks Coverage Results" MODIFIED="1589715515714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex3$Baseline.coverage" NAME="Baseline Coverage Results" MODIFIED="1589708440773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/ex3$test.coverage" NAME="test Coverage Results" MODIFIED="1589425942102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
