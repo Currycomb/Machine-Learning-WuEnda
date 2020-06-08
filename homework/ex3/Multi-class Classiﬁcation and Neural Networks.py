@@ -89,7 +89,7 @@ def predict_all(X, all_theta):
 
 
 # 读取数据
-path = 'D:\Study\Coding\Machine Learning WuEnda\homework\ex3\ex3data1.mat'
+path = 'D:/Study/MachineLearning/Machine Learning WuEnda/homework/ex3/ex3data1.mat'
 data = loadmat(path)
 # print(data['X'], '\n', data['y'])
 # print(data['X'].shape, data['y'].shape)
@@ -132,7 +132,7 @@ y_0 = np.reshape(y_0, (rows, 1))
 
 
 # 实现前馈神经网络预测
-weight = loadmat('D:\Study\Coding\Machine Learning WuEnda\homework\ex3\ex3weights.mat')
+weight = loadmat('D:/Study/MachineLearning/Machine Learning WuEnda/homework/ex3/ex3weights.mat')
 theta1, theta2 = weight['Theta1'], weight['Theta2']
 # print(theta1.shape, theta2.shape)
 
