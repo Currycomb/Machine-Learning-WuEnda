@@ -44,28 +44,6 @@ def cost_function(X, y, theta1, theta2, learning_rate=1, reg=True):
 
     return J
 
-def gradient_check(X, y, theta1, theta2, e=0.001):
-    print('Start checking gradient: ')
-    theta_all = np.hstack((np.ravel(theta1), np.ravel(theta2))).T.reshape(-1, 1)    # (10285, 1)
-    f_theta = np.zeros(theta_all.shape).reshape(-1, 1)
-
-    for i in tqdm(range(theta_all.shape[0])):
-        e_add = np.zeros(theta_all.shape).reshape(-1, 1)
-        e_add[i, 0] = e
-        theta_minus = theta_all - e_add
-        theta_plus = theta_all + e_add
-        
-        theta_minus_1 = theta_minus[:theta1.shape[0] * theta1.shape[1], 0].reshape(theta1.shape)
-        theta_minus_2 = theta_minus[theta1.shape[0] * theta1.shape[1]:, 0].reshape(theta2.shape)
-        theta_plus_1 = theta_plus[:theta1.shape[0] * theta1.shape[1], 0].reshape(theta1.shape)
-        theta_plus_2 = theta_plus[theta1.shape[0] * theta1.shape[1]:, 0].reshape(theta2.shape)
-        
-        f_theta[i, 0] = (cost_function(X, y, theta_minus_1, theta_minus_2) - cost_function(X, y, theta_plus_1, theta_plus_2)) / (2 * e)
-
-    return f_theta
-
-
-
 def back_propagation(params, input_size, hidden_size, num_labels, X, y, learning_rate=1, reg=True):
     m = X.shape[0]
 
@@ -126,6 +104,28 @@ def back_propagation(params, input_size, hidden_size, num_labels, X, y, learning
 
     return J, grad
 
+
+
+def gradient_check(X, y, theta1, theta2, e=0.001):
+    print('Start checking gradient: ')
+    theta_all = np.hstack((np.ravel(theta1), np.ravel(theta2))).T.reshape(-1, 1)    # (10285, 1)
+    f_theta = np.zeros(theta_all.shape).reshape(-1, 1)
+
+    for i in tqdm(range(theta_all.shape[0])):
+        e_add = np.zeros(theta_all.shape).reshape(-1, 1)
+        e_add[i, 0] = e
+        theta_minus = theta_all - e_add
+        theta_plus = theta_all + e_add
+
+        theta_minus_1 = theta_minus[:theta1.shape[0] * theta1.shape[1], 0].reshape(theta1.shape)
+        theta_minus_2 = theta_minus[theta1.shape[0] * theta1.shape[1]:, 0].reshape(theta2.shape)
+        theta_plus_1 = theta_plus[:theta1.shape[0] * theta1.shape[1], 0].reshape(theta1.shape)
+        theta_plus_2 = theta_plus[theta1.shape[0] * theta1.shape[1]:, 0].reshape(theta2.shape)
+
+        f_theta[i, 0] = (cost_function(X, y, theta_minus_1, theta_minus_2) - cost_function(X, y, theta_plus_1, theta_plus_2)) / (2 * e)
+
+    return f_theta
+
 # 读取数据
 data = loadmat('D:/Study/MachineLearning/Machine Learning WuEnda/homework/ex4/ex4data1.mat')
 
@@ -177,6 +177,15 @@ print(params.shape)    # (10285,)
 
 # 使用工具库计算参数最优解
 # minimize the objective function
+'''
+ minimize里面参数解释:
+ fun : 要计算的函数
+ x0 : 函数里面传入的第一个参数,通常是自变量或者要优化的值的初始值
+ args : 函数里面传入的其他的参数，要用tuple打包
+ method : 优化方法
+ jac : 
+ options : 其他设置
+'''
 fmin = minimize(fun=back_propagation, x0=params, args=(input_size, hidden_size, num_labels, X, y_onehot, learning_rate),
                 method='TNC', jac=True, options={'maxiter': 250})
 # print(fmin)
