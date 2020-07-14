@@ -33,10 +33,10 @@ def gradient_descent(X, y, _theta, alpha, iters):
         _theta = temp
         cost[i] = compute_cost(X, y, _theta)
 
-        print('这是第{}次循环, 代价函数的值为{:.4f}' .format(i+1, cost[i]), end=' ')
-        for k in range(parameters):
-            print(', Ѳ{:d}为{:.4f}' .format(k, _theta[0, k]), end=' ')
-        print('\n')
+        # print('这是第{}次循环, 代价函数的值为{:.4f}' .format(i+1, cost[i]), end=' ')
+        # for k in range(parameters):
+        #     print(', Ѳ{:d}为{:.4f}' .format(k, _theta[0, k]), end=' ')
+        # print('\n')
     return _theta, cost
 
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     show_3d_plot = True
     show_2d_plot = True
 
-    path = 'D:\Study\Coding\Machine Learning WuEnda\homework\ex1\ex1data1.txt'
+    path = 'D:\Study\Machine Learning WuEnda\homework\ex1\ex1data1.txt'
     data = pd.read_csv(path, header=None, names=['Population', 'Profits'])
 
     plt.figure(figsize=(8, 6))
