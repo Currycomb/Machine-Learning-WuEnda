@@ -104,8 +104,6 @@ def back_propagation(params, input_size, hidden_size, num_labels, X, y, learning
 
     return J, grad
 
-
-
 def gradient_check(X, y, theta1, theta2, e=0.001):
     print('Start checking gradient: ')
     theta_all = np.hstack((np.ravel(theta1), np.ravel(theta2))).T.reshape(-1, 1)    # (10285, 1)
